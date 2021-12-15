@@ -1,0 +1,19 @@
+.cd-timeline__content a { 
+  text-decoration: none;
+  color: #303F4A;
+}
+
+.cd-main-header a { 
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.cd-timeline__img--movie {
+  background-color: #5FA589;
+}
+
+#content {
+  overflow: hidden; 
+  height: 10em;
+}
+

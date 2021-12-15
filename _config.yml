@@ -1,0 +1,158 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: coronastudies.org
+author: coronastudies
+remove-ads: true
+
+social-network-links:
+  email: "info@coronastudies.org"
+
+# Add a search button to the navbar
+post_search: false
+
+description: >- # this means to ignore newlines until "baseurl:"
+  Corona Studien
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://coronastudies.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url-pretty: "coronastudies.org"
+language: "de"
+
+# --- Navbar --- #
+
+navbar-links:
+  Timeline: timeline/studies_en_all.html
+  Tabelle:
+    - Deutsch: /tables/studies_de.html
+    - Englisch: /tables/studies_en.html
+  Netzwerk: /network/studies.html
+
+# --- Logo --- #
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/assets/img/sun.png"
+
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+round-avatar: true
+
+# If you want to have an image logo in the top-left corner instead of having the title of the website,
+# then specify the following parameter
+#title-img: /path/to/image
+
+# --- Social --- #
+
+# Select which social network share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  vk: false
+
+rss-description: Coronastudies News-Feed
+feed:
+  collections:
+    studies:
+      path: "/studies.xml"
+  posts_limit: 20
+
+# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+excerpt_length: 50
+
+# Whether or not to show an excerpt for every blog post in the feed page
+feed_show_excerpt: false
+
+# Whether or not to show a list of tags below each post preview in the feed page
+feed_show_tags: true
+feed_show_categories: true
+feed_show_persons: true
+
+# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
+site-css:
+  - "/assets/css/custom-styles.css"
+
+collections:
+  studies:
+    output: true
+    permalink: /studies/:name
+
+paginate: 15 
+paginate_path: "/studies/page:num/"
+permalink: "/:year/:month/:day/:title"
+
+# Build settings
+#markdown: CommonMarkGhPages
+#commonmark:
+#   options:
+#   - HARDBREAKS
+#   - SMART
+#   extensions:
+#   - autolink
+#   - table
+markdown: kramdown
+kramdown:
+  hard_wrap: true
+
+remote_theme: EarthData/beautiful-jekyll
+
+# Personalize the colours in your website. Colour values can be any valid CSS colour
+mobile-theme-col: "#FFCD9E"
+navbar-col: "#5fa589"
+navbar-text-col: "#010407"
+navbar-border-col: "#55947B"
+page-col: "#FFFFFF"
+text-col: "#010407"
+link-col: "#994C00"
+hover-col: "#8cd2b6"
+footer-col: "#5fa589"
+footer-text-col: "#010407"
+footer-link-col: "#010407"
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  - scope:
+      path: ""
+      type: "studies"
+    values:
+      layout: "studie"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  - scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scraper
+  - temp

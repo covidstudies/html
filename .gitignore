@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-metadata
+.jekyll-metadata
+.obsidian
+/node_modules
+/imagemosaic/env
+/geocode/env
+/temp
+/assets/img/faces_out
+package-lock.json
+.DS_Store

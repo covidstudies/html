@@ -1,0 +1,54 @@
+---
+layout:
+title:
+permalink: /timeline/studies_en_interventions.html
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/coronastudies.css">
+  <title>coronastudies interventions</title>
+</head>
+<body>
+    <header class="cd-main-header text-center flex flex-column flex-center">
+    <h1><a href="https://coronastudies.org">Corona Studies - Interventions</a></h1>
+  </header>
+
+  <section class="cd-timeline js-cd-timeline">
+    <div class="container max-width-lg cd-timeline__container">
+
+        {%- assign all_posts = site.studies | where: "group", "Interventions" | sort: 'date' | reverse -%}
+        {%- for post in all_posts -%}
+          {%- capture year -%}{{ post.date | date: "%Y" }}{%- endcapture -%}
+          {%- capture month -%}{{ post.date | date: "%-m" }}{%- endcapture -%}
+          {%- capture day -%}{{ post.date | date: "%-d" }}{%- endcapture -%}
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--movie">
+          <img src="/assets/img/sun.png" alt="coronastudies">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <p class="color-contrast-medium">{{post.title}}</p>
+          <h2><a href="{{post.credit}}" target="_blank">{{post.en.subtitle}}</a></h2>
+          <p class="color-contrast-medium">{{post.en.description | truncate: 160 | replace: '"', "'"}}</p>
+          
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <!--<p class="color-contrast-medium cd-timeline__group">{{post.group}}</p>-->
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+        {%- endfor -%}
+
+    </div>
+  </section> <!-- cd-timeline -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

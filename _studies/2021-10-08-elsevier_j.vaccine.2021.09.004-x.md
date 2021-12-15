@@ -1,0 +1,15 @@
+---
+date:        2021-10-08
+title:       Elsevier 
+authors:      'Dan Levin, Gil Shimon, Maggie Fadlon-Derai, Liron Gershovitz, Amiram Shovali, Anat Sebbag, Shakib Bader, Noam Fink, Barak Gordo'
+en:
+  subtitle:    'Myocarditis following COVID-19 vaccination – A case series'
+  description: 'There have been reports of myocarditis following COVID-19 vaccination. We surveyed all hospitalized military personnel in the Isareli Defense Forces during the period of the COVID-19 vaccination operation (12/28/2021–3/7/2021) for diagnosed myocarditis. We identified 7 cases of myocarditis with symptoms starting in the first week after the second dose of COVID-19 Pfizer-BioNTech vaccine. One case of myocarditis diagnosed 10 days after the second dose of the vaccine was not included. These 8 cases comprise of all events of myocarditis diagnosed in military personnel during this time period. All patients were young and generally healthy. All had mild disease with no sequalae. The incidence of myocarditis in the week following a second dose of the vaccine was 5.07/100,000 people vaccinated. Due to the nature of this report no causality could be established. Clinicians should be aware of the possibility of myocarditis following Pfizer-BioNTech vaccination. True incidence rates should be further investigated.'
+de: 
+  subtitle:    'Myokarditis nach COVID-19-Impfung - Eine Fallserie'
+  description: 'Es gibt Berichte über Myokarditis nach der COVID-19-Impfung. Wir untersuchten alle hospitalisierten Militärangehörigen der Isareli Defense Forces während des Zeitraums der COVID-19-Impfaktion (28.12.2021-3.7.2021) auf diagnostizierte Myokarditis. Wir haben 7 Fälle von Myokarditis identifiziert, deren Symptome in der ersten Woche nach der zweiten Dosis des COVID-19-Impfstoffs von Pfizer-BioNTech begannen. Ein Fall von Myokarditis, der 10 Tage nach der zweiten Dosis des Impfstoffs diagnostiziert wurde, wurde nicht berücksichtigt. Diese 8 Fälle umfassen alle Fälle von Myokarditis, die in diesem Zeitraum bei Militärangehörigen diagnostiziert wurden. Alle Patienten waren jung und im Allgemeinen gesund. Alle hatten einen milden Krankheitsverlauf ohne Folgeschäden. Die Inzidenz der Myokarditis in der Woche nach einer zweiten Impfdosis betrug 5,07/100.000 Geimpfte. Aufgrund des Charakters dieses Berichts konnte keine Kausalität festgestellt werden. Kliniker sollten sich der Möglichkeit einer Myokarditis nach einer Impfung mit Pfizer-BioNTech bewusst sein. Die tatsächlichen Inzidenzraten sollten weiter untersucht werden.'
+group:       "Vaccines"
+credit:      https://www.sciencedirect.com/science/article/pii/S0264410X21011725?via%3Dihub
+link:       "https://www.sciencedirect.com/science/article/pii/S0264410X21011646/pdfft?md5=2142a3e41d3a8f2a48d054a39ca10fb7&pid=1-s2.0-S0264410X21011646-main.pdf"
+---
+<object data="{{ page.link }}" style='height:calc(100vh - 400px); width: 100%' type='application/pdf'></object>

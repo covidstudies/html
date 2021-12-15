@@ -1,0 +1,503 @@
+from,to,title,group,value
+2,1,,Therapeutics,2
+3,1,,BMJ Global Health,2
+5,4,,Immunity,2
+6,4,,Science,2
+8,7,,Vaccines,2
+9,7,,SSRN,2
+8,10,,Vaccines,2
+11,10,,Acta Neurologica Scandinavica,2
+2,12,,Therapeutics,2
+13,12,,Current Tropical Medicine Reports,2
+2,14,,Therapeutics,2
+15,14,,International Journal of Environmental Research and Public Health,2
+2,16,,Therapeutics,2
+17,16,,Nutrients,2
+2,18,,Therapeutics,2
+15,18,,International Journal of Environmental Research and Public Health,2
+2,19,,Therapeutics,2
+20,19,,Phytotherapy Research,2
+2,21,,Therapeutics,2
+22,21,,Journal of Medical Microbiology,2
+2,23,,Therapeutics,2
+24,23,,Current Surgery Reports,2
+2,25,,Therapeutics,2
+26,25,,Reviews in Endocrine and Metabolic Disorders,2
+2,27,,Therapeutics,2
+28,27,,Molecular and Cellular Biochemistry,2
+2,29,,Therapeutics,2
+17,29,,Nutrients,2
+2,30,,Therapeutics,2
+17,30,,Nutrients,2
+2,31,,Therapeutics,2
+32,31,,BioImpacts,2
+8,33,,Vaccines,2
+34,33,,ScienceDirect,2
+8,35,,Vaccines,2
+34,35,,ScienceDirect,2
+2,36,,Therapeutics,2
+37,36,,The Journal of Steroid Biochemistry and Molecular Biology,2
+2,38,,Therapeutics,2
+39,38,,Epidemiology and Health,2
+2,40,,Therapeutics,2
+41,40,,Medical Archives,2
+2,42,,Therapeutics,2
+43,42,,International Journal of Molecular Sciences,2
+2,44,,Therapeutics,2
+45,44,,Theranostics,2
+2,46,,Therapeutics,2
+47,46,,Frontiers in Cardiovascular Medicine,2
+2,48,,Therapeutics,2
+49,48,,Biological Trace Element Research,2
+2,50,,Therapeutics,2
+51,50,,Journal of Bodywork and Movement Therapies,2
+2,52,,Therapeutics,2
+53,52,,BMJ Open Sport & Exercise Medicine,2
+2,54,,Therapeutics,2
+17,54,,Nutrients,2
+2,55,,Therapeutics,2
+56,55,,International Journal of Molecular Medicine,2
+8,57,,Vaccines,2
+58,57,,The Lancet,2
+2,59,,Therapeutics,2
+60,59,,International Journal of Clinical Practice,2
+2,61,,Therapeutics,2
+62,61,,Ecotoxicology and Environmental Safety,2
+8,63,,Vaccines,2
+58,63,,The Lancet,2
+2,64,,Therapeutics,2
+65,64,,Contemporary Clinical Trials,2
+2,66,,Therapeutics,2
+67,66,,Risk Management and Healthcare Policy,2
+2,68,,Therapeutics,2
+58,68,,The Lancet,2
+2,69,,Therapeutics,2
+58,69,,The Lancet,2
+2,70,,Therapeutics,2
+71,70,,EXCLI Journal,2
+2,72,,Therapeutics,2
+73,72,,Nature Immunology,2
+2,74,,Therapeutics,2
+15,74,,International Journal of Environmental Research and Public Health,2
+2,75,,Therapeutics,2
+76,75,,Clinical and Translational Science,2
+2,77,,Therapeutics,2
+43,77,,International Journal of Molecular Sciences,2
+2,78,,Therapeutics,2
+79,78,,Foods,2
+2,80,,Therapeutics,2
+81,80,,NLM,2
+2,82,,Therapeutics,2
+83,82,,International Journal of Environment Research and Public Health,2
+2,84,,Therapeutics,2
+85,84,,mSystems,2
+2,86,,Therapeutics,2
+37,86,,The Journal of Steroid Biochemistry and Molecular Biology,2
+2,87,,Therapeutics,2
+58,87,,The Lancet,2
+8,88,,Vaccines,2
+34,88,,ScienceDirect,2
+2,89,,Therapeutics,2
+90,89,,Biomolecules,2
+2,91,,Therapeutics,2
+15,91,,International Journal of Environmental Research and Public Health,2
+2,92,,Therapeutics,2
+93,92,,Frontiers in Nutrition,2
+2,94,,Therapeutics,2
+95,94,,Diseases,2
+2,96,,Therapeutics,2
+17,96,,Nutrients,2
+2,97,,Therapeutics,2
+98,97,,Journal of Leukocyte Biologyy,2
+2,99,,Therapeutics,2
+100,99,,Nutrition,2
+2,101,,Therapeutics,2
+102,101,,Journal of Endocrinological Investigation,2
+2,103,,Therapeutics,2
+104,103,,Indian Journal of Clinical Practice,2
+2,105,,Therapeutics,2
+17,105,,Nutrients,2
+2,106,,Therapeutics,2
+107,106,,International Journal of Antimicrobial Agents,2
+5,108,,Immunity,2
+58,108,,The Lancet,2
+2,109,,Therapeutics,2
+110,109,,SAGE Open Medicine,2
+2,111,,Therapeutics,2
+112,111,,"Medicina (Kaunas, Lithuania)",2
+2,113,,Therapeutics,2
+28,113,,Molecular and Cellular Biochemistry,2
+2,114,,Therapeutics,2
+115,114,,BMJ Open,2
+2,116,,Therapeutics,2
+117,116,,Journal of Clinical Medicine,2
+2,118,,Therapeutics,2
+119,118,,Current Nutrition Reports,2
+2,120,,Therapeutics,2
+121,120,,Frontiers in Pediatrics,2
+8,122,,Vaccines,2
+123,122,,Metabolism Open,2
+2,124,,Therapeutics,2
+125,124,,Inflammation Research,2
+127,126,,Virus,2
+128,126,,MDPI,2
+2,129,,Therapeutics,2
+130,129,,European Journal of Pharmacology,2
+2,131,,Therapeutics,2
+132,131,,Clinical Medicine Journal,2
+2,133,,Therapeutics,2
+76,133,,Clinical and Translational Science,2
+2,134,,Therapeutics,2
+135,134,,Inflammopharmacology,2
+2,136,,Therapeutics,2
+137,136,,The Journal of Nutrition,2
+127,138,,Virus,2
+58,138,,The Lancet,2
+2,139,,Therapeutics,2
+140,139,,Biochimie,2
+2,141,,Therapeutics,2
+142,141,,Frontiers in Immunology,2
+2,143,,Therapeutics,2
+144,143,,"Nutrition, Metabolism and Cardiovascular Diseases",2
+2,145,,Therapeutics,2
+34,145,,ScienceDirect,2
+2,146,,Therapeutics,2
+147,146,,Irish Journal of Medical Science,2
+127,148,,Virus,2
+149,148,,viruses,2
+2,150,,Therapeutics,2
+117,150,,Journal of Clinical Medicine,2
+8,151,,Vaccines,2
+152,151,,The New England Journal of Medicine,2
+8,153,,Vaccines,2
+34,153,,ScienceDirect,2
+2,154,,Therapeutics,2
+155,154,,Kardiologiia,2
+2,156,,Therapeutics,2
+157,156,,Clinical Nutrition ESPEN,2
+2,158,,Therapeutics,2
+159,158,,Diabetes & Metabolic Syndrome Clinical Research & Reviews,2
+2,160,,Therapeutics,2
+161,160,,Cardiology Journal,2
+2,162,,Therapeutics,2
+163,162,,Revista Brasileira de Farmacognosia,2
+2,164,,Therapeutics,2
+165,164,,Frontiers in Psychology,2
+8,166,,Vaccines,2
+167,166,,Elsevier,2
+8,168,,Vaccines,2
+169,168,,medRxiv,2
+2,170,,Therapeutics,2
+17,170,,Nutrients,2
+5,171,,Immunity,2
+58,171,,The Lancet,2
+2,172,,Therapeutics,2
+173,172,,Beni-Suef University Journal of Basic and Applied Sciences,2
+8,174,,Vaccines,2
+175,174,,Journal of Neurological Sciences,2
+2,176,,Therapeutics,2
+17,176,,Nutrients,2
+2,177,,Therapeutics,2
+178,177,,Sports,2
+2,179,,Therapeutics,2
+180,179,,Medical Hypotheses,2
+2,181,,Therapeutics,2
+182,181,,International Journal of Infectious Diseases,2
+8,183,,Vaccines,2
+184,183,,AHA,2
+2,185,,Therapeutics,2
+119,185,,Current Nutrition Reports,2
+2,186,,Therapeutics,2
+187,186,,Reviews in endocrine & metabolic disorders,2
+2,188,,Therapeutics,2
+17,188,,Nutrients,2
+2,189,,Therapeutics,2
+190,189,,International Journal of Obesity,2
+2,191,,Therapeutics,2
+192,191,,International Journal of General Medicine,2
+2,193,,Therapeutics,2
+165,193,,Frontiers in Psychology,2
+2,194,,Therapeutics,2
+17,194,,Nutrients,2
+2,195,,Therapeutics,2
+196,195,,Plos One,2
+2,197,,Therapeutics,2
+81,197,,NLM,2
+2,198,,Therapeutics,2
+199,198,,Saudi Journal of Biological Sciences,2
+2,200,,Therapeutics,2
+201,200,,Redox Biology,2
+8,202,,Vaccines,2
+81,202,,NLM,2
+2,203,,Therapeutics,2
+204,203,,Communications Biology,2
+2,205,,Therapeutics,2
+43,205,,International Journal of Molecular Sciences,2
+8,206,,Vaccines,2
+207,206,,Taylor & Francis,2
+8,208,,Vaccines,2
+209,208,,New England Journal of Medicine,2
+2,210,,Therapeutics,2
+211,210,,Journal of Medical Virology,2
+2,212,,Therapeutics,2
+26,212,,Reviews in Endocrine and Metabolic Disorders,2
+2,213,,Therapeutics,2
+214,213,,The Journal of Clinical Endocrinology & Metabolism,2
+2,215,,Therapeutics,2
+17,215,,Nutrients,2
+2,216,,Therapeutics,2
+217,216,,Italian Journal of Pediatrics,2
+2,218,,Therapeutics,2
+219,218,,Scientific Reports,2
+8,220,,Vaccines,2
+58,220,,The Lancet,2
+8,221,,Vaccines,2
+222,221,,Neurological Sciences,2
+2,223,,Therapeutics,2
+43,223,,International Journal of Molecular Sciences,2
+2,224,,Therapeutics,2
+182,224,,International Journal of Infectious Diseases,2
+2,225,,Therapeutics,2
+226,225,,International Immunopharmacology,2
+2,227,,Therapeutics,2
+17,227,,Nutrients,2
+2,228,,Therapeutics,2
+229,228,,The American Journal of Tropical Medicine and Hygiene,2
+2,230,,Therapeutics,2
+231,230,,Antioxidants,2
+2,232,,Therapeutics,2
+56,232,,International Journal of Molecular Medicine,2
+2,233,,Therapeutics,2
+34,233,,ScienceDirect,2
+2,234,,Therapeutics,2
+115,234,,BMJ Open,2
+8,235,,Vaccines,2
+236,235,,JAMA Cardiology,2
+127,237,,Virus,2
+169,237,,medRxiv,2
+2,238,,Therapeutics,2
+239,238,,Gene Reports,2
+2,240,,Therapeutics,2
+43,240,,International Journal of Molecular Sciences,2
+5,241,,Immunity,2
+242,241,,ACS,2
+2,243,,Therapeutics,2
+15,243,,International Journal of Environmental Research and Public Health,2
+8,244,,Vaccines,2
+245,244,,New Microbes and New Infections,2
+8,246,,Vaccines,2
+123,246,,Metabolism Open,2
+2,247,,Therapeutics,2
+83,247,,International Journal of Environment Research and Public Health,2
+2,248,,Therapeutics,2
+43,248,,International Journal of Molecular Sciences,2
+8,249,,Vaccines,2
+250,249,,Blood,2
+2,251,,Therapeutics,2
+49,251,,Biological Trace Element Research,2
+2,252,,Therapeutics,2
+253,252,,Journal of Personalized Medicine,2
+2,254,,Therapeutics,2
+93,254,,Frontiers in Nutrition,2
+8,255,,Vaccines,2
+256,255,,Journal of Autoimmunity,2
+2,257,,Therapeutics,2
+258,257,,Molecules,2
+2,259,,Therapeutics,2
+17,259,,Nutrients,2
+2,260,,Therapeutics,2
+261,260,,Current Opinion in Critical Care,2
+8,262,,Vaccines,2
+34,262,,ScienceDirect,2
+5,263,,Immunity,2
+58,263,,The Lancet,2
+2,264,,Therapeutics,2
+17,264,,Nutrients,2
+8,265,,Vaccines,2
+266,265,,Springer,2
+8,267,,Vaccines,2
+58,267,,The Lancet,2
+8,268,,Vaccines,2
+269,268,,Working Paper Preprint,2
+2,270,,Therapeutics,2
+271,270,,Therapeutic Advances in Psychopharmacology,2
+2,272,,Therapeutics,2
+17,272,,Nutrients,2
+2,273,,Therapeutics,2
+274,273,,Acute and Critical Care,2
+2,275,,Therapeutics,2
+157,275,,Clinical Nutrition ESPEN,2
+2,276,,Therapeutics,2
+173,276,,Beni-Suef University Journal of Basic and Applied Sciences,2
+8,277,,Vaccines,2
+81,277,,NLM,2
+2,278,,Therapeutics,2
+279,278,,Drugs in Context,2
+2,280,,Therapeutics,2
+281,280,,Diabetes & Metabolic Syndrome,2
+2,282,,Therapeutics,2
+283,282,,Environmental Research and Public Health,2
+2,284,,Therapeutics,2
+285,284,,"Antioxidants (Basel, CH)",2
+8,286,,Vaccines,2
+256,286,,Journal of Autoimmunity,2
+2,287,,Therapeutics,2
+288,287,,Advances in Food and Nutrition Research,2
+2,289,,Therapeutics,2
+157,289,,Clinical Nutrition ESPEN,2
+8,290,,Vaccines,2
+291,290,,The Journal of Immunology,2
+8,292,,Vaccines,2
+293,292,,Medicina,2
+8,294,,Vaccines,2
+58,294,,The Lancet,2
+2,295,,Therapeutics,2
+296,295,,Frontiers in Public Health,2
+8,297,,Vaccines,2
+298,297,,Nature,2
+2,299,,Therapeutics,2
+300,299,,Italian Journal of Dermatology and Venereology,2
+127,301,,Virus,2
+302,301,,Frontiers,2
+2,303,,Therapeutics,2
+304,303,,Journal of Diabetes & Metabolic Disorders,2
+2,305,,Therapeutics,2
+142,305,,Frontiers in Immunology,2
+2,306,,Therapeutics,2
+43,306,,International Journal of Molecular Sciences,2
+2,307,,Therapeutics,2
+192,307,,International Journal of General Medicine,2
+2,308,,Therapeutics,2
+17,308,,Nutrients,2
+2,309,,Therapeutics,2
+310,309,,Monthly Journal of the Association of Physicians,2
+8,311,,Vaccines,2
+312,311,,The American Journal of Emergency Medicine,2
+2,313,,Therapeutics,2
+15,313,,International Journal of Environmental Research and Public Health,2
+127,314,,Virus,2
+315,314,,Wiley,2
+2,316,,Therapeutics,2
+317,316,,Environmental Chemistry Letters,2
+2,318,,Therapeutics,2
+319,318,,Journal of Trace Elements in Medicine and Biology,2
+2,320,,Therapeutics,2
+321,320,,European Review for Medical and Pharmacological Sciences,2
+2,322,,Therapeutics,2
+15,322,,International Journal of Environmental Research and Public Health,2
+2,323,,Therapeutics,2
+119,323,,Current Nutrition Reports,2
+2,324,,Therapeutics,2
+17,324,,Nutrients,2
+2,325,,Therapeutics,2
+100,325,,Nutrition,2
+127,326,,Virus,2
+58,326,,The Lancet,2
+8,327,,Vaccines,2
+328,327,,International Journal of Laboratory Hematology,2
+8,329,,Vaccines,2
+175,329,,Journal of Neurological Sciences,2
+2,330,,Therapeutics,2
+331,330,,Metabolism,2
+2,332,,Therapeutics,2
+333,332,,Endocrine Connections,2
+2,334,,Therapeutics,2
+335,334,,Health Promotion Perspectives,2
+2,336,,Therapeutics,2
+337,336,,Biomedicine & Pharmacotherapy,2
+5,338,,Immunity,2
+34,338,,ScienceDirect,2
+5,339,,Immunity,2
+34,339,,ScienceDirect,2
+2,340,,Therapeutics,2
+341,340,,Microorganisms,2
+5,342,,Immunity,2
+298,342,,Nature,2
+2,343,,Therapeutics,2
+8,343,,Vaccines,2
+2,344,,Therapeutics,2
+345,344,,Annals of Medicine and Surgery,2
+2,346,,Therapeutics,2
+347,346,,BMC Public Health,2
+2,348,,Therapeutics,2
+349,348,,Cochrane Library,2
+2,350,,Therapeutics,2
+351,350,,European Journal of Clinical Nutrition,2
+8,352,,Vaccines,2
+353,352,,Thrombosis Research,2
+2,354,,Therapeutics,2
+355,354,,"International Journal of Physiology, Pathophysiology and Pharmacology",2
+8,356,,Vaccines,2
+169,356,,medRxiv,2
+2,357,,Therapeutics,2
+358,357,,The Scientific World Journal,2
+2,359,,Therapeutics,2
+17,359,,Nutrients,2
+8,360,,Vaccines,2
+361,360,,Thrombosis Journal,2
+2,362,,Therapeutics,2
+363,362,,Revista da Associacao Medica Brasileira,2
+2,364,,Therapeutics,2
+365,364,,Reviews in Endocrine & Metabolic Disorders,2
+2,366,,Therapeutics,2
+367,366,,The American Journal of Clinical Nutrition,2
+8,368,,Vaccines,2
+167,368,,Elsevier,2
+5,369,,Immunity,2
+73,369,,Nature Immunology,2
+2,370,,Therapeutics,2
+28,370,,Molecular and Cellular Biochemistry,2
+2,371,,Therapeutics,2
+372,371,,Endocrine Practice,2
+8,373,,Vaccines,2
+236,373,,JAMA Cardiology,2
+2,374,,Therapeutics,2
+375,374,,Actualites Pharmaceutiques,2
+2,376,,Therapeutics,2
+377,376,,Experimental Gerontology,2
+2,378,,Therapeutics,2
+115,378,,BMJ Open,2
+8,379,,Vaccines,2
+58,379,,The Lancet,2
+2,380,,Therapeutics,2
+17,380,,Nutrients,2
+127,381,,Virus,2
+34,381,,ScienceDirect,2
+8,382,,Vaccines,2
+207,382,,Taylor & Francis,2
+8,383,,Vaccines,2
+6,383,,Science,2
+2,384,,Therapeutics,2
+37,384,,The Journal of Steroid Biochemistry and Molecular Biology,2
+8,385,,Vaccines,2
+123,385,,Metabolism Open,2
+2,386,,Therapeutics,2
+387,386,,Medicine in Drug Discovery,2
+2,388,,Therapeutics,2
+196,388,,Plos One,2
+2,389,,Therapeutics,2
+161,389,,Cardiology Journal,2
+2,390,,Therapeutics,2
+135,390,,Inflammopharmacology,2
+2,391,,Therapeutics,2
+392,391,,Advances in Nutrition,2
+2,393,,Therapeutics,2
+93,393,,Frontiers in Nutrition,2
+2,394,,Therapeutics,2
+100,394,,Nutrition,2
+2,395,,Therapeutics,2
+49,395,,Biological Trace Element Research,2
+2,396,,Therapeutics,2
+397,396,,Advances in Respiratory Medicine,2
+2,398,,Therapeutics,2
+399,398,,Journal of Infection and Public Health,2
+2,400,,Therapeutics,2
+401,400,,Archives of Microbiology,2
+2,402,,Therapeutics,2
+60,402,,International Journal of Clinical Practice,2
+2,403,,Therapeutics,2
+125,403,,Inflammation Research,2
+8,404,,Vaccines,2
+405,404,,Infection,2
+2,406,,Therapeutics,2
+407,406,,Nutrition Research,2
