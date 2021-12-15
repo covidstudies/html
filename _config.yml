@@ -19,6 +19,8 @@ remove-ads: true
 
 social-network-links:
   email: "info@coronastudies.org"
+  twitter: "@coronastudies"
+  telegram: "coronastudies"
 
 # Add a search button to the navbar
 post_search: false
