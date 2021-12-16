@@ -19,6 +19,8 @@ remove-ads: true
 
 social-network-links:
   email: "info@coronastudies.org"
+  twitter: "@coronastudies"
+  telegram: "coronastudies"
 
 # Add a search button to the navbar
 post_search: false
@@ -26,8 +28,8 @@ post_search: false
 description: >- # this means to ignore newlines until "baseurl:"
   Corona Studien
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://coronastudies.org/" # the base hostname & protocol for your site, e.g. http://example.com
-url-pretty: "coronastudies.org"
+url: "https://dev.coronastudies.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url-pretty: "dev.coronastudies.org"
 language: "de"
 
 # --- Navbar --- #

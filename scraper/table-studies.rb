@@ -18,6 +18,7 @@ def build_network(files)
     studies[file_name] = Hash.new
     studies[file_name]['date'] = meta_data['date']
     studies[file_name]['publisher'] = meta_data['title']
+    studies[file_name]['authors'] = meta_data['authors']
     studies[file_name]['titel'] = meta_data['de']['subtitle']
     studies[file_name]['beschreibung'] = meta_data['de']['description']
     studies[file_name]['title'] = meta_data['en']['subtitle']
@@ -44,9 +45,9 @@ def build_network(files)
 
   studies_file_name = "../tables/studies.csv"
   CSV.open(studies_file_name, "wb") do |csv|
-    csv << ["filename", "date", "publisher", "title", "beschreibung", "title", "description", "group", "credit"]
+    csv << ["filename", "date", "publisher", "authors", "title", "beschreibung", "title", "description", "group", "credit"]
     studies.sort.each do |node, values|
-      csv << ["#{node}.md", values['date'], values['publisher'], values['titel'], values['beschreibung'], values['title'], values['description'], values['group'], values['credit']]
+      csv << ["#{node}.md", values['date'], values['publisher'], values['authors'], values['titel'], values['beschreibung'], values['title'], values['description'], values['group'], values['credit']]
     end
   end
 
