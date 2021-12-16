@@ -1,3 +1,5 @@
+/* Modified for coronastudies.org by Corona Studies
+
 @import '../../../../../codyhouse-framework/main/assets/css/style.scss'; // ⚠️ make sure to import the CodyHouse framework
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700'); // custom font
 
@@ -14,7 +16,7 @@
   @include defineColorHSL(--cd-color-3, 207, 10%, 55%); // Grey
   @include defineColorHSL(--cd-color-4, 111, 51%, 60%); // Green
   @include defineColorHSL(--cd-color-5, 356, 53%, 49%); // Red
-  @include defineColorHSL(--cd-color-6, 47, 85%, 61%);  // Yellow
+  @include defineColorHSL(--cd-color-6, 47, 85%, 61%); // Yellow
 
   // header
   --cd-header-height: 200px;
@@ -27,7 +29,7 @@
 @supports(--css: variables) {
   :root {
     @include breakpoint(md) {
-      --cd-header-height:  300px;
+      --cd-header-height: 300px;
     }
   }
 }
@@ -61,7 +63,8 @@
   position: relative;
   padding: var(--space-md) 0;
 
-  &::before { // this is the timeline vertical line
+  &::before {
+    // this is the timeline vertical line
     content: '';
     position: absolute;
     top: 0;
@@ -144,9 +147,10 @@
   background: var(--color-white);
   border-radius: var(--radius-md);
   padding: var(--space-md);
-  box-shadow: 0 3px 0 var(--cd-color-2); 
+  box-shadow: 0 3px 0 var(--cd-color-2);
 
-  &::before { // triangle next to content block
+  &::before {
+    // triangle next to content block
     content: '';
     position: absolute;
     top: 16px;
@@ -166,14 +170,16 @@
     font-size: 0.8em;
     --line-height-multiplier: 1.2;
 
-    &::before { // triangle
+    &::before {
+      // triangle
       top: 24px;
     }
 
-    .cd-timeline__block:nth-child(odd) &::before { // change triangle direction
+    .cd-timeline__block:nth-child(odd) &::before {
+      // change triangle direction
       right: auto;
       left: 100%;
-      @include triangle(right, 7px, var(--color-white)); 
+      @include triangle(right, 7px, var(--color-white));
     }
   }
 }
@@ -195,8 +201,11 @@
   }
 }
 
-@include breakpoint(md) { // animations
-  .cd-timeline__img--hidden, .cd-timeline__content--hidden {
+@include breakpoint(md) {
+
+  // animations
+  .cd-timeline__img--hidden,
+  .cd-timeline__content--hidden {
     visibility: hidden;
   }
 
@@ -205,11 +214,11 @@
   }
 
   .cd-timeline__content--bounce-in {
-    animation: cd-bounce-2 0.6s;       
+    animation: cd-bounce-2 0.6s;
   }
 
   .cd-timeline__block:nth-child(even) .cd-timeline__content--bounce-in {
-    animation-name: cd-bounce-2-inverse; 
+    animation-name: cd-bounce-2-inverse;
   }
 }
 
@@ -219,35 +228,37 @@
     opacity: 0;
     transform: scale(0.5);
   }
+
   60% {
     opacity: 1;
     transform: scale(1.2);
   }
+
   100% {
-    transform: scale(1);    
+    transform: scale(1);
   }
 }
 
 @keyframes cd-bounce-2 {
   0% {
     opacity: 0;
-    transform: translateX(-100px);   
+    transform: translateX(-100px);
   }
 
   60% {
     opacity: 1;
-    transform: translateX(20px);       
+    transform: translateX(20px);
   }
 
   100% {
-    transform: translateX(0);       
+    transform: translateX(0);
   }
 }
 
 @keyframes cd-bounce-2-inverse {
   0% {
     opacity: 0;
-    transform: translateX(100px);   
+    transform: translateX(100px);
   }
 
   60% {
@@ -256,6 +267,6 @@
   }
 
   100% {
-    transform: translateX(0);    
+    transform: translateX(0);
   }
 }
