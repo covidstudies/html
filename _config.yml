@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: coronastudies.org
-author: coronastudies
+title: Corona Studie
+author: Corona Studies
 remove-ads: true
 
 social-network-links:
   email: "info@coronastudies.org"
   twitter: "@coronastudies"
-  telegram: "coronastudies"
+  telegram: "@coronastudies"
 
 # Add a search button to the navbar
 post_search: false
@@ -35,7 +35,7 @@ language: "de"
 # --- Navbar --- #
 
 navbar-links:
-  Timeline: timeline/studies_en_all.html
+  Timeline: timeline/studies_de_all.html
   Tabelle:
     - Deutsch: /tables/studies_de.html
     - Englisch: /tables/studies_en.html
@@ -63,7 +63,7 @@ share-links-active:
   linkedin: true
   vk: false
 
-rss-description: Coronastudies News-Feed
+rss-description: Corona Studies. News-Feed
 feed:
   collections:
     studies:
@@ -110,17 +110,17 @@ kramdown:
 remote_theme: EarthData/beautiful-jekyll
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
-mobile-theme-col: "#FFCD9E"
-navbar-col: "#5fa589"
-navbar-text-col: "#010407"
-navbar-border-col: "#55947B"
-page-col: "#FFFFFF"
-text-col: "#010407"
-link-col: "#994C00"
-hover-col: "#8cd2b6"
-footer-col: "#5fa589"
-footer-text-col: "#010407"
-footer-link-col: "#010407"
+mobile-theme-col: "white"
+navbar-col: "white"
+navbar-text-col: "black"
+navbar-border-col: "white"
+page-col: "white"
+text-col: "black"
+link-col: "blue"
+hover-col: "blue"
+footer-col: "white"
+footer-text-col: "black"
+footer-link-col: "blue"
 
 # Default YAML values (more information on Jekyll's site)
 defaults:

@@ -122,6 +122,16 @@ p:last-of-type {
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
+footer {
+  margin-bottom: 3.75rem;
+}
+
+footer p {
+  display: block;
+  margin: 0 auto 1.25rem;
+  max-width: 576px;
+  text-align: center;
+}
 /**/
 
 html {
@@ -129,6 +139,8 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: #f2f2f2;
   /*
   background-color: hsl(0, 0%, 100%);
@@ -3788,6 +3800,9 @@ mark,
 
 .cd-timeline {
   overflow: hidden;
+  /* Added */
+  margin-bottom: 2.5rem;
+  /**/
   /* Disabled
   padding: 2em 0;
   padding: var(--space-lg) 0;
