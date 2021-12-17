@@ -37,7 +37,7 @@ permalink: /timeline/studies_en_vaccines.html
         </div> <!-- cd-timeline__img -->
 
         <div class="cd-timeline__content text-component">
-          <p>{{post.title}}<span class="status">{{post.status}}</span></p>
+          <p>{{post.title}} {{post.status}}</p>
           <h2><a href="{{post.credit}}" target="_blank">{{post.en.subtitle}}</a></h2>
           <p>Authors: {{post.authors | truncate: 160 | replace: '"', "'"}}</p>
           <p>{{post.en.description | truncate: 160 | replace: '"', "'"}}</p>
