@@ -19,8 +19,8 @@ remove-ads: true
 
 social-network-links:
   email: "info@coronastudies.org"
-  twitter: "@coronastudies"
-  telegram: "@coronastudies"
+  twitter: "coronastudies"
+  telegram: "coronastudies"
 
 # Add a search button to the navbar
 post_search: false
@@ -59,8 +59,8 @@ round-avatar: true
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  linkedin: true
+  facebook: false
+  linkedin: false
   vk: false
 
 rss-description: Corona Studies. News-Feed
@@ -107,7 +107,7 @@ markdown: kramdown
 kramdown:
   hard_wrap: true
 
-remote_theme: EarthData/beautiful-jekyll
+remote_theme: jekyll/minima
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 mobile-theme-col: "white"

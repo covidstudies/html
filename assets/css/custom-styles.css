@@ -1,3 +1,19 @@
+* {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-weight: normal !important;
+  font-size: medium !important;
+  line-height: 125% !important;
+  color: black !important;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: white !important;
+}
+
+/*
+
 table {
   width: 100%
 }
