@@ -1,0 +1,256 @@
+/* CC BY-SA Corona Studies
+/* * info@coronastudies.org
+/* * coronastudies.org
+/*
+/* Colors – HTML Color Names
+/* * white
+/* * black
+/* * whitesmoke
+/* * blue
+*/
+
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: left;
+  color: black;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 1rem;
+  background-color: whitesmoke;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+h2, h3, h4, h5, h6, h2 *, h3 *, h4 *, h5 *, h6 * {
+  font-size: 2rem;
+  margin: 0;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+p, ul, ol, dl, table {
+  margin: 0.625rem 0;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+blockquote {
+  margin: 0;
+}
+
+span {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+ul {
+  list-style: circle;
+}
+
+details > summary {
+  display: block;
+  list-style: none;
+  margin: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+summary::after {
+  display: block;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+mark, ::selection {
+  background-color: yellow;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  max-width: calc(660px + 4rem);
+  transform: translateX(-50%);
+  z-index: 666;
+}
+
+header figure {
+  display: inline-block;
+  max-width: 100px;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 1.25rem 0;
+  vertical-align: top;
+}
+
+header span::before {
+  content: '. ';
+}
+
+header details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.25rem 1rem;
+  z-index: -1;
+}
+
+header details[open] {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+header details > summary {
+  font-size: 200%;
+  line-height: 1.25rem !important;
+  text-align: right;
+  color: blue;
+  margin-bottom: 5rem;
+}
+
+header details[open] nav ul {
+  margin: 2.5rem 0;
+  padding: 0 1rem;
+  list-style: circle;
+}
+
+header details[open] nav li {
+  line-height: 175%;
+}
+
+header ::selection {
+  background-color: transparent;
+}
+
+/* Main */
+
+main {
+  margin-top: calc(5rem + 1.25rem);
+}
+
+article {
+  margin: 0 auto 2.5rem;
+  padding: 1.25rem 1rem;
+  max-width: calc(660px + 4rem);
+  background-color: white;
+  border: 1px dotted black;
+}
+
+article:last-of-type {
+  margin-bottom: 0;
+}
+
+article:nth-child(even) {
+  border-radius: 1rem 0 1rem 1rem;
+}
+
+article:nth-child(odd) {
+  border-radius: 1rem 1rem 1rem 0;
+}
+
+article div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+article div:first-child p {
+  display: inline-block;
+  margin-top: 0;
+}
+
+article p:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer */
+
+footer {
+  margin: 0 auto;
+  padding: 0 1rem;  
+  max-width: calc(660px + 4rem);
+}
+
+/* Address */
+
+address {
+  margin: 5rem 0 2.5rem;
+}
+
+address ul {
+  list-style: none;
+  padding: 0;
+}
+
+address li {
+  display: inline-block;
+  line-height: 175%;
+}
+
+address li:first-child {
+  display: block;
+}
+
+/* Responsive Webdesign */
+
+@media screen and (max-width: 640px) {
+
+  * {
+    font-size: 16px;
+  }
+
+  body {
+    background-color: white;
+    padding: 0;
+  }
+
+  header span {
+    display: none;
+    content: none;
+  }
+
+  article {
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px dotted black;
+  }
+
+  article:nth-child(even),
+  article:nth-child(odd) {
+    border-radius: 0;
+  }
+
+}
