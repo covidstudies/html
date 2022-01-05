@@ -7,11 +7,11 @@
 /* * black
 /* * whitesmoke
 /* * blue
+/* * yellow
 */
 
 * {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 125%;
@@ -38,7 +38,7 @@ img {
 }
 
 h2, h3, h4, h5, h6, h2 *, h3 *, h4 *, h5 *, h6 * {
-  font-size: 2rem;
+  font-size: 200%;
   margin: 0;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
@@ -51,6 +51,12 @@ p, ul, ol, dl, table {
   -ms-hyphens: auto;
   hyphens: auto;
 }
+
+/* table 
+/* figure
+/* video
+/* audio
+*/
 
 blockquote {
   margin: 0;
@@ -102,7 +108,7 @@ header {
   width: 100%;
   max-width: calc(660px + 4rem);
   transform: translateX(-50%);
-  z-index: 666;
+  z-index: 108;
 }
 
 header figure {
@@ -208,6 +214,7 @@ footer {
 
 address {
   margin: 5rem 0 2.5rem;
+  font-style: normal;
 }
 
 address ul {
@@ -229,7 +236,7 @@ address li:first-child {
 @media screen and (max-width: 640px) {
 
   * {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   body {
