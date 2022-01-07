@@ -7,11 +7,11 @@
 /* * black
 /* * whitesmoke
 /* * blue
-/* * yellow
 */
 
 * {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 125%;
@@ -27,22 +27,19 @@ body {
 }
 
 figure {
-  margin: 0;
+  margin: 1.25rem 0;
 }
 
-img {
+img, video, audio {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border: none;
 }
 
 h2, h3, h4, h5, h6, h2 *, h3 *, h4 *, h5 *, h6 * {
-  font-size: 200%;
+  text-transform: uppercase;
   margin: 0;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
 }
 
 p, ul, ol, dl, table {
@@ -51,12 +48,6 @@ p, ul, ol, dl, table {
   -ms-hyphens: auto;
   hyphens: auto;
 }
-
-/* table 
-/* figure
-/* video
-/* audio
-*/
 
 blockquote {
   margin: 0;
@@ -68,7 +59,8 @@ span {
   hyphens: none;
 }
 
-a {
+a,
+a * {
   color: blue;
   text-decoration: none;
 }
@@ -108,16 +100,18 @@ header {
   width: 100%;
   max-width: calc(660px + 4rem);
   transform: translateX(-50%);
-  z-index: 108;
+  z-index: 666;
 }
 
 header figure {
   display: inline-block;
   max-width: 100px;
+  margin: 0;
 }
 
 header h1 {
   display: inline-block;
+  text-transform: uppercase;
   margin: 1.25rem 0;
   vertical-align: top;
 }
@@ -202,6 +196,20 @@ article p:last-child {
   margin-bottom: 0;
 }
 
+main nav {
+  margin: 0 auto;
+  max-width: calc(660px + 4rem);
+}
+
+main nav ul {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 1rem;
+}
+
 /* Footer */
 
 footer {
@@ -214,7 +222,6 @@ footer {
 
 address {
   margin: 5rem 0 2.5rem;
-  font-style: normal;
 }
 
 address ul {
@@ -236,7 +243,7 @@ address li:first-child {
 @media screen and (max-width: 640px) {
 
   * {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   body {
